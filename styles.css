@@ -12,14 +12,14 @@ DARK BLUE: #1D3557
     background-image: url("images/torshov.jpg");
     background-size: cover;
     margin: 0px auto;
-    width: 723px;
+    
     height: 343px;
     background-color: #F1FAEE;
     
 }
 
 #visit-torshov{
-    width: 225px;
+    max-width: 225px;
     height: 42px;
     
     text-align: center;
@@ -242,15 +242,15 @@ margin-bottom: 84px;
 
 
 body {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
     text-align: center;
-    border: 5px solid white;
+    
     background-color: #F1FAEE;
+    padding: 0;
 
     
 }
 
 img {
-    width: 100px;
+    width: 100%;
 }
